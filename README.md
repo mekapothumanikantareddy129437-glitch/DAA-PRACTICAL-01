@@ -13,3 +13,9 @@ linearsearch.py
 binarysearch.py
 Conclusion
 Linear Search is simple and can be used for any list, but it may take more time for large datasets. Binary Search is generally faster because it reduces the search range in every step, but it requires the list to be sorted. Therefore, Linear Search is suitable for small or unsorted lists, while Binary Search is more efficient for large sorted lists.
+
+Summary
+The program implements Heap Sort using a Max Heap. It first builds a max heap from the input array using the heapify() function. The largest element is then repeatedly moved to the end of the array, and the remaining elements are heapified again. The program also measures the execution time and displays the sorted list. �
+maxheap.py
+Conclusion
+The Heap Sort algorithm successfully sorts the given list of integers in ascending order. The program demonstrates the use of a Max Heap and reports O(n log n) time complexity for the best, average, and worst cases. �

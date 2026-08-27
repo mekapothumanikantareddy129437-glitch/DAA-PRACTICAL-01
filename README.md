@@ -7,7 +7,7 @@ Conclusion:
 
 The practical was successfully completed, and all the sorting algorithms produced the correct sorted output. Bubble Sort, Selection Sort, and Insertion Sort are simple and suitable for small datasets, but they generally require more time for large datasets. Merge Sort and Quick Sort are more efficient for larger datasets because they use the divide-and-conquer approach. Thus, the practical provided a clear understanding of sorting techniques and the importance of time and space complexity in selecting an appropriate sorting algorithm.
 
-#DAA PRACTICAL -2
+# DAA PRACTICAL -2
 
 Summary
 The programs implement Linear Search and Binary Search to find a target number in a list. Both programs take numbers and a target value as input, display whether the target is found, return its index, and measure the execution time. The Linear Search program checks each element one by one and has O(1) best-case and O(n) average/worst-case time complexity. � The Binary Search program repeatedly checks the middle element and reduces the search range; it works by comparing the target with the middle value. �
@@ -17,7 +17,7 @@ binarysearch.py
 Conclusion:
 Linear Search is simple and can be used for any list, but it may take more time for large datasets. Binary Search is generally faster because it reduces the search range in every step, but it requires the list to be sorted. Therefore, Linear Search is suitable for small or unsorted lists, while Binary Search is more efficient for large sorted lists.
 
-#DAA PRACTICAL -03
+# DAA PRACTICAL -03
 
 Summary
 The program implements Heap Sort using a Max Heap. It first builds a max heap from the input array using the heapify() function. The largest element is then repeatedly moved to the end of the array, and the remaining elements are heapified again. The program also measures the execution time and displays the sorted list. �
@@ -36,7 +36,18 @@ Conclusion:
 
 Thus, the factorial of a given number was successfully calculated using both iterative and recursive methods. Both methods produce the same result, but the iterative method is more space-efficient, while the recursive method is simpler and demonstrates the concept of recursion. Therefore, the iterative approach is generally preferable when memory efficiency is important.
 
+# DAA PRACTICAL 06
+summary:
+Matrix Chain Multiplication (MCM) is a Dynamic Programming problem used to find the minimum number of scalar multiplications needed to multiply a sequence of matrices.
+The goal is not to multiply the matrices, but to find the best order (parenthesization) for multiplication.
+
+conclusion:
+Matrix Chain Multiplication is an efficient Dynamic Programming technique used to determine the best order for multiplying a sequence of matrices. It reduces the total number of scalar multiplications by dividing the problem into smaller subproblems and storing their results.
+
+
 # DAA PRACTICAL 07
+
+summary:
 The code solves the optimization problem of finding the minimum number of coins needed to make a specific change amount using a given set of coin denominations.Input Collection:It takes the total number of coin types (n), the actual denominations (coins), and the target amount from the user.Initialization:A 1D array (dp) of size amount + 1 is created.Each index i represents the minimum coins needed to make change for amount i.All values are initialized to infinity (float('inf')) because the minimum number is initially unknown, except for the base case dp[0] = 0 (zero coins are needed to make an amount of 0).
 
 Conclusion:

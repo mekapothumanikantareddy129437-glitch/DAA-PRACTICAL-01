@@ -35,3 +35,9 @@ The factorial of a number was implemented using both iterative and recursive met
 Conclusion:
 
 Thus, the factorial of a given number was successfully calculated using both iterative and recursive methods. Both methods produce the same result, but the iterative method is more space-efficient, while the recursive method is simpler and demonstrates the concept of recursion. Therefore, the iterative approach is generally preferable when memory efficiency is important.
+
+# DAA PRACTICAL 07
+The code solves the optimization problem of finding the minimum number of coins needed to make a specific change amount using a given set of coin denominations.Input Collection:It takes the total number of coin types (n), the actual denominations (coins), and the target amount from the user.Initialization:A 1D array (dp) of size amount + 1 is created.Each index i represents the minimum coins needed to make change for amount i.All values are initialized to infinity (float('inf')) because the minimum number is initially unknown, except for the base case dp[0] = 0 (zero coins are needed to make an amount of 0).
+
+Conclusion:
+The provided script is a highly efficient and structurally sound implementation of the Bottom-Up Dynamic Programming paradigm.

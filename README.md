@@ -36,6 +36,13 @@ Conclusion:
 
 Thus, the factorial of a given number was successfully calculated using both iterative and recursive methods. Both methods produce the same result, but the iterative method is more space-efficient, while the recursive method is simpler and demonstrates the concept of recursion. Therefore, the iterative approach is generally preferable when memory efficiency is important.
 
+#DAA PRACTICAL 05
+SUMMARY:
+The Knapsack Problem is a fundamental optimization problem in computer science and mathematics where the goal is to select a subset of items, each with a specific weight and value, to maximize the total value without exceeding a maximum weight capacity. It serves as a classic metaphor for resource allocation under constraints.
+
+CONCLUSION:
+The Knapsack Problem is much more than a theoretical puzzle; it is a cornerstone of combinatorial optimization.
+
 # DAA PRACTICAL 06
 summary:
 Matrix Chain Multiplication (MCM) is a Dynamic Programming problem used to find the minimum number of scalar multiplications needed to multiply a sequence of matrices.

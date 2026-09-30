@@ -60,3 +60,14 @@ The code solves the optimization problem of finding the minimum number of coins 
 
 Conclusion:
 The provided script is a highly efficient and structurally sound implementation of the Bottom-Up Dynamic Programming paradigm.
+
+DAA PRACTICAL 08 
+
+summary:
+The program demonstrates Breadth-First Search (BFS) and Depth-First Search (DFS) on a graph starting from node A with the goal of finding node F.
+BFS: Uses a queue and visits nodes level by level. The traversal is: A → B → C → D → E → G → H → F It successfully finds F.
+DFS: Uses recursion and explores one branch as deeply as possible before backtracking. The traversal shown is: A → B → D → E → F It successfully finds F.
+
+conclusion:
+
+Both BFS and DFS are effective graph traversal techniques and successfully find the goal node F. BFS explores nodes level by level and is useful for finding the shortest path in an unweighted graph, while DFS explores deeply and is useful for systematic graph exploration.

@@ -10,7 +10,7 @@ The practical was successfully completed, and all the sorting algorithms produce
 # DAA PRACTICAL -2
 
 Summary
-The programs implement Linear Search and Binary Search to find a target number in a list. Both programs take numbers and a target value as input, display whether the target is found, return its index, and measure the execution time. The Linear Search program checks each element one by one and has O(1) best-case and O(n) average/worst-case time complexity. � The Binary Search program repeatedly checks the middle element and reduces the search range; it works by comparing the target with the middle value. �
+The programs implement Linear Search and Binary Search to find a target number in a list. Both programs take numbers and a target value as input, display whether the target is found, return its index, and measure the execution time. The Linear Search program checks each element one by one and has O(1) best-case and O(n) average/worst-case time complexity. The Binary Search program repeatedly checks the middle element and reduces the search range; it works by comparing the target with the middle value. 
 linearsearch.py
 binarysearch.py
 
@@ -20,17 +20,17 @@ Linear Search is simple and can be used for any list, but it may take more time 
 # DAA PRACTICAL -03
 
 Summary
-The program implements Heap Sort using a Max Heap. It first builds a max heap from the input array using the heapify() function. The largest element is then repeatedly moved to the end of the array, and the remaining elements are heapified again. The program also measures the execution time and displays the sorted list. �
+The program implements Heap Sort using a Max Heap. It first builds a max heap from the input array using the heapify() function. The largest element is then repeatedly moved to the end of the array, and the remaining elements are heapified again. The program also measures the execution time and displays the sorted list. 
 maxheap.py
 
 Conclusion:
 
-The Heap Sort algorithm successfully sorts the given list of integers in ascending order. The program demonstrates the use of a Max Heap and reports O(n log n) time complexity for the best, average, and worst cases. �
+The Heap Sort algorithm successfully sorts the given list of integers in ascending order. The program demonstrates the use of a Max Heap and reports O(n log n) time complexity for the best, average, and worst cases. 
 
 # DAA PRACTICAL -04
 
 Summary
-The factorial of a number was implemented using both iterative and recursive methods. The iterative method calculates the factorial using a for loop, while the recursive method calculates it by repeatedly calling the same function with a reduced value. Both methods have O(n) time complexity. The iterative method uses O(1) space, whereas the recursive method uses O(n) space because of recursive function calls. The execution time of both methods was also measured and compared. �
+The factorial of a number was implemented using both iterative and recursive methods. The iterative method calculates the factorial using a for loop, while the recursive method calculates it by repeatedly calling the same function with a reduced value. Both methods have O(n) time complexity. The iterative method uses O(1) space, whereas the recursive method uses O(n) space because of recursive function calls. The execution time of both methods was also measured and compared. 
 
 Conclusion:
 
@@ -71,3 +71,35 @@ DFS: Uses recursion and explores one branch as deeply as possible before backtra
 conclusion:
 
 Both BFS and DFS are effective graph traversal techniques and successfully find the goal node F. BFS explores nodes level by level and is useful for finding the shortest path in an unweighted graph, while DFS explores deeply and is useful for systematic graph exploration.
+
+# DAA PRACTICAL 09
+
+summary: 
+Prim’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph. It starts with any vertex and repeatedly selects the minimum-weight edge that connects a vertex already in the MST to a vertex outside it. This process continues until all vertices are included.
+
+It produces a spanning tree with the minimum possible total edge weight.
+It does not create cycles.
+It can be implemented using a priority queue for better efficiency.
+Time complexity is typically O(V²) using an adjacency matrix, or O(E log V) using a min-priority queue and adjacency list.
+
+conclusion:
+Prim’s Algorithm is an efficient and widely used method for constructing a Minimum Spanning Tree. By making the locally optimal choice of the smallest connecting edge at each step, it obtains a globally optimal spanning tree. It is useful in applications such as network design, road construction, communication systems, and cable layout, where the goal is to connect all points at minimum cost.
+
+# DAA PRACTICAL 10
+
+SUMMARY:
+Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph. It works by sorting all edges in increasing order of their weights and then selecting the smallest edge that does not form a cycle.
+
+First, sort all edges by increasing weight.
+Select the smallest edge.
+Add it to the MST if it does not create a cycle.
+Continue until V − 1 edges are selected.
+Disjoint Set (Union-Find) is commonly used to detect cycles efficiently.
+Time complexity is typically O(E log E) due to sorting the edges.
+
+Conclusion:
+Kruskal’s Algorithm is a simple and effective method for finding a Minimum Spanning Tree. It always chooses the lowest-weight available edge while avoiding cycles. It is particularly suitable for sparse graphs and is widely used in network design and optimization problems.
+
+
+.
+
